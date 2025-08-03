@@ -1,0 +1,18 @@
+node_modules
+.DS_Store
+
+# Visual regression test outputs
+src/__tests__/visual-regression/__image_snapshots__/__diff_output__/
+debug.png
+# TypeScript
+*.tsbuildinfo
+dist/**/*.js
+dist/**/*.js.map
+dist/**/*.d.ts
+dist/**/*.d.ts.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
